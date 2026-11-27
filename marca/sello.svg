@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sello original de la app (no reproduce el logotipo de ISO ni dice «Certified»): marino #14284A, petróleo #2B7471, niebla #E3E8EE -->
+  <defs>
+    <path id="arcoSup" d="M 66,256 A 190,190 0 0 1 446,256"/>
+    <path id="arcoInf" d="M 44,256 A 212,212 0 0 0 468,256"/>
+  </defs>
+  <circle cx="256" cy="256" r="244" fill="#FFFFFF" stroke="#14284A" stroke-width="12"/>
+  <circle cx="256" cy="256" r="166" fill="#E3E8EE" stroke="#14284A" stroke-width="10"/>
+  <text font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="2.2" fill="#14284A">
+    <textPath href="#arcoSup" startOffset="50%" text-anchor="middle">SEGURIDAD DE LA INFORMACIÓN</textPath>
+  </text>
+  <text font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="6" fill="#2B7471">
+    <textPath href="#arcoInf" startOffset="50%" text-anchor="middle">APRENDE</textPath>
+  </text>
+  <circle cx="72" cy="256" r="7" fill="#2B7471"/><circle cx="440" cy="256" r="7" fill="#2B7471"/>
+  <text x="256" y="218" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="38" font-weight="700" letter-spacing="5" fill="#14284A">ISO/IEC</text>
+  <text x="256" y="304" text-anchor="middle" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="90" font-weight="800" letter-spacing="-1" fill="#14284A">27001</text>
+  <rect x="206" y="330" width="100" height="12" rx="6" fill="#2B7471"/>
+</svg>
